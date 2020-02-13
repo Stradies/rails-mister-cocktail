@@ -1,0 +1,15 @@
+.home-banner {
+  background-image: url('https://images.unsplash.com/photo-1531002329786-97e3efcb754b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #eee;
+  text-align: center;
+  padding-top: 40vh;
+  margin-bottom: 20px;
+
+  h1 {
+    font-size: 60px;
+    text-shadow: black 0 -3px;
+  }
+}
