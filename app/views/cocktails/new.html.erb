@@ -1,13 +1,30 @@
+<div class="card-category-new" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1497990902153-c6d041aad676?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1407&q=80)">
+  Add a Cocktail
+</div>
 
-
-<div class="container">
+<div class="container my-5">
   <div class="row">
     <div class="col-12 col-lg-6">
       <%= simple_form_for(@cocktail) do |f| %>
         <%= f.input :name %>
+        <%= f.input :image %>
         <%= f.submit class: "btn btn-danger" %>
       <% end %>
-      <%= link_to "Back", cocktails_path, class: "btn btn-primary my-2" %>
+      <%= link_to "Back", root_path, class: "btn btn-ghost my-3" %>
     </div>
   </div>
 </div>
+
+<div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fas fa-heart"></i>
+  </div>
+</div>
+
